@@ -11,7 +11,7 @@ commands:
 - cp index.html /var/www/html/
 post_build:
 commands:
-echo Configuring NGINX
+- echo Configuring NGINX
 artifacts:
 files:
 - /var/www/html/index.html
